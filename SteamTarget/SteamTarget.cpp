@@ -117,9 +117,9 @@ void SteamTarget::readIni()
 			else if (childkey == "bEnableControllers") {
 				enable_controllers_ = settings.value(childkey).toBool();
 			}
-			else if (childkey == "bHookSteam") {
+			/*else if (childkey == "bHookSteam") {
 				hook_steam_ = settings.value(childkey).toBool();
-			}
+			}*/
 			else if (childkey == "bUseDesktopConfig") {
 				use_desktop_conf_ = settings.value(childkey).toBool();
 			}
