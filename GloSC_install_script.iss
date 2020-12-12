@@ -74,7 +74,7 @@ Name: "{commondesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: 
 ; vc++ platform redist
 Filename: "{app}\redist\vc_redist_x86.exe"; Parameters: "/quiet /install"; Description: "Installing Redist. packages"; Flags: runascurrentuser
 ; vigembus driver install
-Filename: "{app}\redist\ViGEmBus_Setup_1.16.115.exe"; Description: "Install ViGEmBus Driver"; Flags: nowait postinstall skipifsilent
+Filename: "{app}\redist\ViGEmBus_Setup_1.16.116.exe"; Description: "Install ViGEmBus Driver"; Flags: nowait postinstall skipifsilent
 
 ; install glosc after prereqs
 Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChange(MyAppName, '&', '&&')}}"; Flags: runascurrentuser nowait postinstall skipifsilent
